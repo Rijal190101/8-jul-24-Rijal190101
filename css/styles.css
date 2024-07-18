@@ -1,0 +1,88 @@
+/* ini css */
+
+.main-title{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-content{
+    flex: 1;
+    padding: 12px;
+}
+
+.input-title{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form{
+    background-color: aliceblue;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.button{
+    height: 32px;
+    border-radius: 8px;
+}
+
+.submit{
+    background-color: lightskyblue;
+    border: 1px solid black;
+}
+
+.reset{
+    background-color: white;
+    border: 1px solid lightskyblue;
+}
+
+.Konsultasi{
+    background-color: lightskyblue;
+    border: 1px solid black;
+}
+
+.Registrasi{
+    background-color: lightskyblue;
+    border: 1px solid black;
+}
+
+.Download{
+    background-color: lightskyblue;
+    padding: 8px;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=number]:focus {
+    border: 3px solid lightskyblue;
+}
+
+.result-section{
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.button.playstore {
+    background-color: #34a853;
+    color: white;
+}
+
+.button.instagram {
+    background-color: #e1306c;
+    color: white;
+}
